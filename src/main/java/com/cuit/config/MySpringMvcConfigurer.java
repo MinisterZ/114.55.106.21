@@ -24,8 +24,8 @@ public class MySpringMvcConfigurer {
                 @Override                                                   //  找/main/login.html
                 public void addViewControllers(ViewControllerRegistry registry) {
                     registry.addViewController("/").setViewName("main/index");
-                    registry.addViewController("/index.html").setViewName("main/login");
-                    registry.addViewController("/main.html").setViewName("main/index");
+                    registry.addViewController("/a.html").setViewName("a");
+
 
                 }
          };
